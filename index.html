@@ -7,74 +7,42 @@
   <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
-<style>
-    /* Common button style */
-.btn {
-  padding: 12px 24px;
-  font-size: 16px;
-  font-weight: 600;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  margin: 8px;
-}
 
-/* Contact Me Button */
-.contact-btn {
-  background: #4CAF50;
-  color: white;
-}
-
-.contact-btn:hover {
-  background: #43a047;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* Resume Button */
-.resume-btn {
-  background: #2196F3;
-  color: white;
-}
-
-.resume-btn:hover {
-  background: #1976d2;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-
-
-</style>
 <body>
   <div id="main">
 
   
-    <header>
-      <div class="header">
-        <div class="logo">
-          <h1>Rohit Kumawat</h1>
-        </div>
-        <div class="mylist">
-          <ul class="nav">
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
-            <li><a href="">SKILLS</a></li>
-            <li><a href="">PROJECTS</a></li>
-            <li><a href="">BLOG</a></li>
-            <li><a href="">CONTACT</a></li>
-            <div class="login">
-        <button id="toggle-btn">Light Mode</button>
+ 
+<header>
+  <div class="header">
+    <div class="logo">
+      <h1>Rohit Kumawat</h1>
+    </div>
 
-            </div>
-          </ul>
+    <!-- Hamburger menu button -->
+    <div class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="mylist" id="nav-menu">
+      <ul class="nav">
+        <li><a href="#namaste" class="nav-link">HOME</a></li>
+        <li><a href="#about" class="nav-link">ABOUT</a></li>
+        <li><a href="#skills" class="nav-link">SKILLS</a></li>
+        <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+        <li><a href="#connect" class="nav-link">CONTACT</a></li>
+        <div class="login">
+          <button id="toggle-btn">Light Mode</button>
         </div>
-      </div>
-    </header>
+      </ul>
+    </div>
+  </div>
+</header>
 
  
-    <section class="Namaste">
+    <section class="Namaste" id="namaste">
       <div class="next">
         <div class="name">
           <h1>Namaste</h1>
@@ -96,7 +64,7 @@
     </section>
 
    
-    <section class="things-love-section">
+    <section class="things-love-section" id="things-love">
       <div class="section-tag">Interests</div>
       <h2 class="section-title">Things I Love</h2>
       <div class="love-cards">
@@ -129,7 +97,7 @@
    
    
 
-<section class="about-section">
+<section class="about-section" id="about">
 
     <div class="section-tag" >But Who Am I?</div>
 
@@ -147,7 +115,7 @@
   </div>
 </section>
 
- <section class="skills-section">
+ <section class="skills-section" id="skills">
       <div class="section-tag">What do I know?</div>
       <h2 class="section-title">Skills</h2>
       <p class="skills-subtitle">Here are some of the technologies that are part of my current stack:</p>
@@ -173,7 +141,7 @@
 
 
 
-     <section class="Tools-section">
+     <section class="Tools-section" id="tools">
       <div class="section-tag">What do I know?</div>
       <h2 class="section-title">Tools</h2>
       <p class="Tools-subtitle">Tech stack known? Here are tools that I runs:</p>
@@ -196,7 +164,7 @@
 
 
 
-    <section class="projects-section">
+    <section class="projects-section" id="projects">
   <h2 class="section-title">Projects</h2>
 
   <div class="projects-grid">
@@ -319,7 +287,7 @@
 
 
 
-<section class="experience-section">
+<section class="experience-section" id="experience">
   <h3 class="experience-title">Experience</h3>
 
   <div class="timeline">
@@ -351,7 +319,7 @@
 
 
 
-<section class="connect-section">
+<section class="connect-section" id="connect">
   <h3 class="connect-title">Connect With Me</h3>
 
   <div class="connect-container">
